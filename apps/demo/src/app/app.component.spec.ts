@@ -4,22 +4,22 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 import { RouterTestingModule } from '@angular/router/testing';
 
 describe('AppComponent', () => {
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      imports: [AppComponent, NxWelcomeComponent, RouterTestingModule],
-    }).compileComponents();
-  });
+    beforeEach(async () => {
+        await TestBed.configureTestingModule({
+            imports: [AppComponent, NxWelcomeComponent, RouterTestingModule],
+        }).compileComponents();
+    });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Welcome demo');
-  });
+    it('should render title', () => {
+        const fixture = TestBed.createComponent(AppComponent);
+        fixture.detectChanges();
+        const compiled = fixture.nativeElement as HTMLElement;
+        expect(compiled.querySelector('h1')?.textContent).toContain('Welcome demo');
+    });
 
-  it(`should have as title 'demo'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('demo');
-  });
+    it(`should have as title 'demo'`, () => {
+        const fixture = TestBed.createComponent(AppComponent);
+        const app = fixture.componentInstance;
+        expect(app.title).toEqual('demo');
+    });
 });
