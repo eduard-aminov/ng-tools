@@ -2,7 +2,9 @@
   "name": "@ng-tools/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "npx husky install"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.0.0",
@@ -28,6 +30,7 @@
     "@angular/cli": "~17.0.0",
     "@angular/compiler-cli": "~17.0.0",
     "@angular/language-service": "~17.0.0",
+    "husky": "8.0.3",
     "@nx/cypress": "17.2.7",
     "@nx/eslint": "17.2.7",
     "@nx/eslint-plugin": "17.2.7",
@@ -42,6 +45,8 @@
     "@types/node": "18.16.9",
     "@typescript-eslint/eslint-plugin": "^6.9.1",
     "@typescript-eslint/parser": "^6.9.1",
+    "@commitlint/cli": "18.4.3",
+    "@commitlint/config-conventional": "18.4.3",
     "cypress": "^13.0.0",
     "eslint": "~8.48.0",
     "eslint-config-prettier": "^9.0.0",
