@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "npx husky install",
-    "stylelint": "npx stylelint \"**/*.scss\""
+    "stylelint": "npx stylelint \"**/*.scss\"",
+    "prettier": "prettier !package-lock.json . --ignore-path .gitignore --write"
   },
   "private": true,
   "dependencies": {
@@ -58,7 +59,8 @@
     "jsonc-eslint-parser": "^2.1.0",
     "lint-staged": "15.2.0",
     "nx": "17.2.7",
-    "prettier": "^2.6.2",
+    "prettier": "3.1.1",
+    "prettier-plugin-organize-attributes": "1.0.0",
     "stylelint": "^16.0.2",
     "stylelint-config-standard-scss": "^12.0.0",
     "ts-jest": "^29.1.0",
