@@ -1,5 +1,5 @@
 {
-    "name": "@ng-tools/web-apis",
+    "name": "@ediklil/ng-web-apis",
     "version": "0.1.1",
     "peerDependencies": {
         "@angular/common": "^17.0.0",
@@ -8,5 +8,11 @@
     "dependencies": {
         "tslib": "^2.3.0"
     },
-    "sideEffects": false
+    "sideEffects": false,
+    "description": "This library was generated with [Nx](https://nx.dev).",
+    "author": {
+        "name": "Eduard Aminov",
+        "email": "eduard.aminov.160@gmail.com"
+    },
+    "license": "Apache-2.0"
 }

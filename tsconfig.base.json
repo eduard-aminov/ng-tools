@@ -15,7 +15,7 @@
         "skipDefaultLibCheck": true,
         "baseUrl": ".",
         "paths": {
-            "@ng-tools/web-apis": ["libs/web-apis/src/index.ts"]
+            "@ediklil/ng-web-apis": ["libs/ng-web-apis/src/index.ts"]
         }
     },
     "exclude": ["node_modules", "tmp"]

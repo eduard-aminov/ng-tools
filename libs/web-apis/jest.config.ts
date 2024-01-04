@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-    displayName: 'web-apis',
+    displayName: 'ng-web-apis',
     preset: '../../jest.preset.js',
     setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-    coverageDirectory: '../../coverage/libs/web-apis',
+    coverageDirectory: '../../coverage/libs/ng-web-apis',
     transform: {
         '^.+\\.(ts|mjs|js|html)$': [
             'jest-preset-angular',

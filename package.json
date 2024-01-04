@@ -1,7 +1,7 @@
 {
-    "name": "@ng-tools/source",
+    "name": "@ediklil/source",
     "version": "0.0.0",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "scripts": {
         "postinstall": "npx husky install",
         "stylelint": "npx stylelint \"**/*.scss\"",
