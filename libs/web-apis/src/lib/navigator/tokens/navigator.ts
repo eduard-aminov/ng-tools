@@ -1,5 +1,5 @@
 import { InjectionToken } from '@angular/core';
 
-export const NAVIGATOR = new InjectionToken('[NAVIGATOR test]', {
+export const NAVIGATOR = new InjectionToken('[NAVIGATOR]', {
     factory: () => window.navigator,
 });

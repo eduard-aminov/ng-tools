@@ -6,7 +6,7 @@
         "postinstall": "npx husky install",
         "stylelint": "npx stylelint \"**/*.scss\"",
         "prettier": "prettier !package-lock.json . --ignore-path .gitignore --write",
-        "release:patch": "lerna version patch --no-private",
+        "release:patch": "lerna publish patch --no-private",
         "release:minor": "lerna version minor --no-private",
         "release:major": "lerna version major --no-private"
     },
