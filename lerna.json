@@ -23,7 +23,8 @@
     "command": {
         "version": {
             "allowBranch": "master",
-            "commitHooks": false
+            "commitHooks": false,
+            "createRelease": "github"
         },
         "publish": {
             "yes": true,
