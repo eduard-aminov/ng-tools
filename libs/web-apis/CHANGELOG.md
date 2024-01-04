@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/eduard-aminov/ng-tools/compare/@ng-tools/web-apis@0.1.0...@ng-tools/web-apis@0.1.1) (2024-01-04)
+
+### Bug Fixes
+
+- commit to test lerna publish
+  ([f2812d2](https://github.com/eduard-aminov/ng-tools/commit/f2812d209f7896d6d4ccd072a0c9e86756201a2b))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.1.0](https://github.com/eduard-aminov/ng-tools/compare/@ng-tools/web-apis@0.0.2...@ng-tools/web-apis@0.1.0) (2024-01-04)
 
 ### Features
